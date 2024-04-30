@@ -141,8 +141,6 @@ recon_seeds:
 - 1
 - 2
 - 3
-- 4
-- 5
 recon_timescale: 1
 recon_vars:
 - tas
