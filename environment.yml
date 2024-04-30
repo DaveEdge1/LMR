@@ -250,5 +250,5 @@ dependencies:
       - tqdm==4.65.0
       - xarray==2023.7.0
       - zipp==3.16.2
-      - cfr==2023.7.24
+      - cfr==2024.4.30.12
 prefix: /root/miniconda3/envs/cfr-env
