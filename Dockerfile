@@ -20,7 +20,7 @@ SHELL ["conda", "run", "-n", "cfr-env", "/bin/bash", "-c"]
 ENV PATH /opt/anaconda3/envs/cfr-env/bin:$PATH
 
 #run the python script within the conda environment
-CMD ["conda", "run", "--live-stream", "--no-capture-output", "-n", "cfr-env", "python", "cfr_main_code.py > server.log 2>&1"]
+CMD ["conda", "run", "--live-stream", "--no-capture-output", "-n", "cfr-env", "python", "cfr_main_code.py"]
 
 #bring output to read/write layer
 #COPY recons/ recons/
