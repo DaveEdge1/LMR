@@ -425,44 +425,31 @@ ptype_season_dict:
   - 11
   - 12
   tree.MXD:
-  # it's not very readable below, the more readable version looks like
-        # 'tree.MXD': [
-        #     [1,2,3,4,5,6,7,8,9,10,11,12],
-        #     [6,7,8],
-        #     [3,4,5,6,7,8],
-        #     [6,7,8,9,10,11],
-        #     [-12,1,2],
-        #     [-9,-10,-11,-12,1,2],
-        #     [-12,1,2,3,4,5]
-        # ],
-        # if such multiple possible seasonalities are provided, the program will search for the optimal; this could be a default but slow option
-        # the users may specify only one possibility like that for other proxy types, e.g., annual, to make it faster and forced
-  - - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
   tree.TRW:
-  # same as tree.MXD
-  - - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    - 12
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
 #===================================
 # Experimental (DO NOT CHANGE)
 #-----------------------------------
