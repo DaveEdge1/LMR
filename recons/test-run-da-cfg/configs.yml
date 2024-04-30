@@ -1,0 +1,150 @@
+allownan: false
+annualize_proxydb_months:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+annualize_proxydb_ptypes:
+- coral
+assim_frac: 0.75
+compress_params:
+  zlib: true
+filter_proxydb_args: []
+filter_proxydb_kwargs:
+  by: ptype
+  keys:
+  - coral
+nens: 100
+obs_anom_period:
+- 1951
+- 1980
+obs_lat_name: lat
+obs_lon_name: lon
+obs_path:
+  pr: 20CRv3/pr
+  tas: gistemp1200_GHCNv4_ERSSTv5
+obs_rename_dict:
+  pr: prate
+  tas: tempanomaly
+obs_time_name: time
+output_full_ens: false
+output_indices:
+- gm
+- nhm
+- shm
+- nino3.4
+- nino1+2
+- nino3
+- nino4
+- tpi
+- wpi
+- dmi
+- iobw
+prior_annualize_months:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+prior_anom_period:
+- 1951
+- 1980
+prior_lat_max: 35
+prior_lat_min: -35
+prior_lat_name: lat
+prior_lon_max: 360
+prior_lon_min: 0
+prior_lon_name: lon
+prior_path:
+  pr: iCESM_past1000historical/pr
+  tas: iCESM_past1000historical/tas
+prior_regrid_nlat: 42
+prior_regrid_nlon: 63
+prior_time_name: time
+proxydb_path: PAGES2kv2
+psm_calib_period:
+- 1850
+- 2015
+ptype_clim_dict:
+  coral.SrCa:
+  - tas
+  coral.calc:
+  - tas
+  coral.d18O:
+  - tas
+ptype_forward_dict: {}
+ptype_psm_dict:
+  coral.SrCa: Linear
+  coral.calc: Linear
+  coral.d18O: Linear
+ptype_season_dict:
+  coral.SrCa:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  coral.calc:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  coral.d18O:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+recon_loc_rad: 25000
+recon_period:
+- 0
+- 2000
+recon_sampling_mode: fixed
+recon_seeds:
+- 1
+- 2
+- 3
+- 4
+- 5
+recon_timescale: 1
+recon_vars:
+- tas
+save_dirpath: ./recons/test-run-da-cfg
+trim_prior: true
