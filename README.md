@@ -1,5 +1,5 @@
 # Last Millenium Reanalysis  
-([Hakim et al., 2016](https://doi.org/10.1002/2016JD024751); [Tardif et al., 2019](https://doi.org/https://doi.org/10.5194/cp-15-1251-2019))
+[Zhu et al., 2024](https://gmd.copernicus.org/articles/17/3409/2024/)
 
 ## How to run the container:
 * launch docker on your local machine  
@@ -16,4 +16,5 @@
 2. the configs.yml is used to adjust various reconstruction parameters (a default file, as shown in this repo will be used if noone is mounted)
 3. the recons folder contains the results. This mount is required to get data out, so you must have an empty directory called recons to point to 
 
-This container utilizes the python package 'cfr' for paleoclimate data assimilatio: '[LMR](https://fzhu2e.github.io/cfr/notebooks/lmr-cli.html)' by Feng Zhu and Julien Emile-Geay
+This container utilizes the python package 'cfr' for paleoclimate data assimilation based on this tutorial: '[LMR](https://fzhu2e.github.io/cfr/notebooks/lmr-cli.html)' by Feng Zhu and Julien Emile-Geay
+See also: ([Hakim et al., 2016](https://doi.org/10.1002/2016JD024751); [Tardif et al., 2019](https://doi.org/https://doi.org/10.5194/cp-15-1251-2019))
