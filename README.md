@@ -1,9 +1,8 @@
 # Last Millenium Reanalysis  
-[Zhu et al., 2024](https://gmd.copernicus.org/articles/17/3409/2024/)
 
 ## Purpose
 * This repo is designed specifically for use in PReSto. While other use cases may be practicable, we do not plan to support them here.
-* This container utilizes the python package 'cfr' for paleoclimate data assimilation based on this tutorial: '[LMR](https://fzhu2e.github.io/cfr/notebooks/lmr-cli.html)' by Feng Zhu and Julien Emile-Geay
+* This container utilizes the python package 'cfr' for paleoclimate data assimilation. For use of this product outside of PReSto, visit: '[LMR](https://fzhu2e.github.io/cfr/notebooks/lmr-cli.html)' by Feng Zhu and Julien Emile-Geay [Zhu et al., 2024](https://gmd.copernicus.org/articles/17/3409/2024/)
 
 ## How to run the container:
 * launch docker on your local machine  
